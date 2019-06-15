@@ -1,0 +1,48 @@
+{
+  "name": "masakikoide-portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio.",
+  "main": "index.ts",
+  "repository": "git@github.com.private:masaki-koide/masakikoide-portfolio.git",
+  "author": "masaki-koide <ikasama0324@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --hot --open"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@types/html-webpack-plugin": "^3.2.0",
+    "@types/react": "^16.8.20",
+    "@types/react-dom": "^16.8.4",
+    "@types/terser-webpack-plugin": "^1.2.1",
+    "@types/webpack": "^4.4.32",
+    "@typescript-eslint/eslint-plugin": "^1.10.2",
+    "@typescript-eslint/parser": "^1.10.2",
+    "babel-loader": "^8.0.6",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-config-xo": "^0.26.0",
+    "eslint-config-xo-react": "^0.19.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "fork-ts-checker-webpack-plugin": "^1.3.7",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.18.2",
+    "terser-webpack-plugin": "^1.3.0",
+    "thread-loader": "^2.1.2",
+    "ts-loader": "^6.0.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
+  }
+}
